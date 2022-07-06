@@ -1,0 +1,9 @@
+{% if brands %}
+<ul>
+  {% for brand in brands %}
+  <li>{{ brand.brand_name }}</a></li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>No brands are available.</p>
+{% endif %}
